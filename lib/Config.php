@@ -17,8 +17,8 @@ class Config {
     static $ProductionUrls = array(
         "SessionTokenRequestUrl" => "https://api.boipapaymentgateway.com/token",
         "PaymentOperationActionUrl" => "https://api.boipapaymentgateway.com/payments",
-        "JavaScriptUrl" => "https://api-turnkey.myriadpayments.com/js/api.js",
-        "BaseUrl" => "https://api-turnkey.myriadpayments.com/ui/cashier",
+        "JavaScriptUrl" => "https://cashierui-api.boipapaymentgateway.com/js/api.js",
+        "BaseUrl" => "https://cashierui-api.boipapaymentgateway.com",
     );
     static $Protocol = "https";
     static $Method = "POST";
