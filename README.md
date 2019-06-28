@@ -199,10 +199,10 @@ Checking if a parameter has already been assigned a value is as simple as using 
 
 General Configuration Parameters are those that you configure on the Payments object and are then applicable to all subsequent Request Objects you obtain from it. Ideally you configure these once, on instantiating the main Payments object and then save the extra code of setting them individually again and again. 
 
-## # Note: 
+### Note: 
 These parameters are not global - if you create one Request Object it will retain the configuration of the Payments object at the instance of creation. Further changes to Payments will not affect an already created Request Object.
 
-## # Note: 
+### Note: 
 The Payments object has two special helper methods that set a predefined list of parameters, depending on your choice of environment - testEnvironment() and productionEnvironment() (See above on how to use them). It is mandatory that you use one or the other, otherwise your configuration will not be complete.
 
 To get the full list of supported parameters and their meaning please consult the [API Specification for Merchants](docs/API-Specification.pdf) document.
