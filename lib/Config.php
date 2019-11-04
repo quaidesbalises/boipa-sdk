@@ -12,13 +12,13 @@ class Config {
         "SessionTokenRequestUrl" => "https://apiuat.test.boipapaymentgateway.com/token",
         "PaymentOperationActionUrl" => "https://apiuat.test.boipapaymentgateway.com/payments",
         "JavaScriptUrl" => "https://cashierui-apiuat.test.boipapaymentgateway.com/js/api.js",
-        "BaseUrl" => "https://cashierui-apiuat.test.boipapaymentgateway.com",
+        "BaseUrl" => "https://cashierui-apiuat.test.boipapaymentgateway.com/ui/cashier",
     );
     static $ProductionUrls = array(
         "SessionTokenRequestUrl" => "https://api.boipapaymentgateway.com/token",
         "PaymentOperationActionUrl" => "https://api.boipapaymentgateway.com/payments",
         "JavaScriptUrl" => "https://cashierui-api.boipapaymentgateway.com/js/api.js",
-        "BaseUrl" => "https://cashierui-api.boipapaymentgateway.com",
+        "BaseUrl" => "https://cashierui-api.boipapaymentgateway.com/ui/cashier",
     );
     static $Protocol = "https";
     static $Method = "POST";
