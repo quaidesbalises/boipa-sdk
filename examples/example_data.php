@@ -8,8 +8,8 @@ $password = "";
 $brandId = "";
 $country = "";
 $currency = "";
-$credit_card_token = "8399296648645454";
-$customer_it_token = "ETsAsTWs69NbNovf0JOw";
+$credit_card_token = "";
+$customer_it_token = "";
 $forceSecurePayment="true";
 //Additional Parameters that can be used
 /*
