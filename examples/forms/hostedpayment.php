@@ -26,6 +26,10 @@ try {
                 amount($amount)->
                 country($country)->
                 currency($currency)->
+		customerFirstName($customerFirstName)->
+		customerLastName($customerLastName)->
+		customerEmail($customerEmail)->
+		customerPhone($customerPhone)->
                 paymentSolutionId("");
         $token = $purchase->token();
         ?>
