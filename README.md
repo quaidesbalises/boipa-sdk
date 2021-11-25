@@ -223,7 +223,7 @@ There are 7 Request Object classes in total:
 
 All classes are descendants of _Payments/Request_ class and also inherit settings from the _Payments_ object that created them.
 
-For more information on payment transactions please check the [API Specification for Merchants](docs/API-Specification.pdf) document.
+For more information on payment transactions please check the [API Specification for Merchants](docs/0 - BOIPA Gateway - 0 - Overview.pdf) document.
 
 ## Typical Request Flows
 
