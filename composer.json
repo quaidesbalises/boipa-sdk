@@ -9,7 +9,6 @@
             "engine": "Payments PHP SDK"
         }
     ],
-    "minimum-stability": "stable",
     "support": {},
     "authors": [
 	    {
