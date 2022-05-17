@@ -1,8 +1,8 @@
 {
-    "name": "payments/php_sdk",
+    "name": "quaidesbalises/boipa_sdk",
     "type": "library",
     "version": "1.0.0",
-    "description": "PHP Implementation of the Payments API",
+    "description": "BOIPA - PHP Implementation of the Payments API",
     "license": "",
     "extra": [
         {
